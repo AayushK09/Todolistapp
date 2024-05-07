@@ -1,0 +1,133 @@
+.todo-list {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-list h1 {
+    text-align: center;
+  }
+  
+  .todo-list input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .todo-list button {
+    /* width: 70px; */
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .todo-list button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list button.delete-button {
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todo-list button.delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .todo-list li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  
+  .todo-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+      
+    .delete-button {
+      background-color: #ff4d4f; /* Red color for delete button */
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    
+    .delete-button:hover {
+      background-color: #ff7875; /* Darker red color on hover */
+    }
+    .todo-item {
+      cursor: pointer;
+    }
+    
+    .todo-item.completed {
+      text-decoration: line-through; /* Add line-through style for completed items */
+    }
+    
+    
+    .todo-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    /* .todo-list li {
+      margin-bottom: 10px;
+    } */
+    
+    .delete-button {
+      background-color: #ff4d4f;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    
+    .delete-button:hover {
+      background-color: #ff7875;
+    }
+    
+    .todo-item {
+      cursor: pointer;
+    }
+    
+    .todo-item.completed {
+      text-decoration: line-through;
+    }
+    
+    .todo-item:hover {
+      background-color: #f0f0f0; /* Add background color on hover for better indication */
+    }
+    li.dragged {
+      border: 2px dashed #333; /* Change border style */
+    }
+    
