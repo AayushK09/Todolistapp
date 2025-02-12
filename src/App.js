@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="app">
       <TodoList />
-      <footer className="footer">Developed by AK</footer>
+      <footer className="footer">Developed by Aayush</footer>
     </div>
   );
 };
